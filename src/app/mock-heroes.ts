@@ -1,4 +1,5 @@
 import { Hero } from './heroes/hero';
+import { Observable, of } from 'rxjs';
 
 export const HEROES: Hero[] = [
   { id: 11, name: 'Dr Nice' },
